@@ -1,0 +1,57 @@
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1 {
+  padding: .99rem 0;
+  background-color: #010c3f;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.88rem;
+  color: #fff;
+}
+
+.Logo {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50pt;
+  color: #6c41ec;
+}
+
+h2 {
+font-family: 'Noto Sans', sans-serif;
+  font-size: 1.55rem;
+}
+
+.App-Background {
+  height: 100%;
+  padding: 0 17% 10% 17%;
+  background-image: url('https://static.pexels.com/photos/813940/pexels-photo-813940.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #2c00af;
+  background-blend-mode: difference;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+
+.App-playlist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1020px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}
